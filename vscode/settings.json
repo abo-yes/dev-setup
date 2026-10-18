@@ -1,0 +1,57 @@
+{
+    // ---------- Look: JetBrains Darcula ----------
+    "workbench.colorTheme": "Darcula Theme from IntelliJ",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "editor.fontFamily": "'JetBrainsMono NFM', Consolas, monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.2,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "'JetBrainsMono NFM', Consolas, monospace",
+    "terminal.integrated.fontSize": 13,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [120],
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.bracketPairs": false,
+    "editor.renderLineHighlight": "all",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 14,
+    "workbench.startupEditor": "none",
+    "window.restoreWindows": "all",
+    "window.commandCenter": true,
+
+    // ---------- Editor tabs (IntelliJ defaults: close on right, limit 10) ----------
+    "workbench.editor.tabActionLocation": "right",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.enablePreview": false,
+
+    // ---------- Behaviour ----------
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.foldingImportsByDefault": true,
+    "editor.linkedEditing": true,
+    "editor.inlayHints.enabled": "on",
+    "editor.suggest.preview": true,
+    "editor.parameterHints.enabled": true,
+    "explorer.autoReveal": true,
+    "explorer.compactFolders": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "scm.defaultViewMode": "tree",
+    "workbench.localHistory.enabled": true,
+    "workbench.localHistory.maxFileEntries": 100,
+
+    // ---------- Spell checker: subtle green squiggle like IntelliJ "Typo" ----------
+    "cSpell.useCustomDecorations": true,
+    "cSpell.textDecorationStyle": "wavy",
+    "cSpell.textDecorationColor": "#629755",
+    "cSpell.diagnosticLevel": "Hint",
+    "git.autofetch": true,
+    "remote.SSH.remotePlatform": {
+        "152.70.6.246": "linux"
+    }
+}

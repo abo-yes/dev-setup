@@ -1,0 +1,13 @@
+// IntelliJ shortcuts not covered by the "IntelliJ IDEA Keybindings" extension
+[
+    // Ctrl+K: Commit
+    { "key": "ctrl+k", "command": "workbench.view.scm", "when": "!terminalFocus" },
+    // Ctrl+Shift+F10: Run current
+    { "key": "ctrl+shift+f10", "command": "workbench.action.debug.run" },
+    // Ctrl+Shift+F12: Hide all tool windows
+    { "key": "ctrl+shift+f12", "command": "workbench.action.maximizeEditorHideSidebar" },
+    // Alt+`: VCS operations popup
+    { "key": "alt+`", "command": "workbench.action.quickOpen", "args": ">Git: " },
+    // Alt+F1: Select in project view
+    { "key": "alt+f1", "command": "workbench.files.action.showActiveFileInExplorer", "when": "editorFocus" }
+]
