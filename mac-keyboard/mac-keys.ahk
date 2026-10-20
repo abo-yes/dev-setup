@@ -34,7 +34,7 @@ SendCtrlShift(key, *) => Send("^+" key)
 
 ; ---------- App / window management ----------
 #q::Send "!{F4}"            ; Cmd+Q: quit
-#Tab::AltTab                ; Cmd+Tab: switch apps
+<#Tab::AltTab               ; Cmd+Tab: switch apps
 #Space::Send "{LWin}"       ; Cmd+Space: search (Start menu)
 #+3::Send "{PrintScreen}"   ; Cmd+Shift+3: screenshot
 #+4::Send "#+s"             ; Cmd+Shift+4: snipping tool
