@@ -41,8 +41,10 @@ install_packages() {
 
 install_oh_my_zsh() {
     if [[ ! -d "$omz_dir" ]]; then
-        RUNZSH=no CHSH=no KEEP_ZSHRC=yes sh -c \
-            "\$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" \
+        local installer
+        installer="$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" \
+            || { echo "Could not download the Oh My Zsh installer." >&2; exit 1; }
+        RUNZSH=no CHSH=no KEEP_ZSHRC=yes sh -c "$installer" \
             || { echo "Oh My Zsh installation failed." >&2; exit 1; }
     fi
 }
