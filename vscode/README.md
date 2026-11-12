@@ -16,8 +16,9 @@ macOS:
 ./vscode/setup.sh
 ```
 
-Installs all extensions in `extensions.txt` and copies `settings.json` /
-`keybindings.json` / `snippets/` into the VS Code user folder
+Checks for and installs the **Fira Code** font if not already present on the system,
+installs all extensions in `extensions.txt` (including Google Antigravity), and copies
+`settings.json` / `keybindings.json` / `snippets/` into the VS Code user folder
 (`%APPDATA%\Code\User` on Windows, `~/Library/Application Support/Code/User`
 on macOS). Any existing files there are backed up to `*.bak` first.
 

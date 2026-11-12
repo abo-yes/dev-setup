@@ -9,5 +9,8 @@
     // Alt+`: VCS operations popup
     { "key": "alt+`", "command": "workbench.action.quickOpen", "args": ">Git: " },
     // Alt+F1: Select in project view
-    { "key": "alt+f1", "command": "workbench.files.action.showActiveFileInExplorer", "when": "editorFocus" }
+    { "key": "alt+f1", "command": "workbench.files.action.showActiveFileInExplorer", "when": "editorFocus" },
+    // Cmd+Shift+0 / Ctrl+Shift+0: Switch between open VS Code windows
+    { "key": "ctrl+shift+0", "mac": "cmd+shift+0", "command": "workbench.action.switchWindow" },
+    { "key": "win+shift+0", "command": "workbench.action.switchWindow" }
 ]

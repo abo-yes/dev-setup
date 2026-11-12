@@ -9,6 +9,7 @@ editorconfig.editorconfig
 esbenp.prettier-vscode
 foxundermoon.shell-format
 golang.go
+google.google-antigravity
 humao.rest-client
 k--kato.intellij-idea-keybindings
 mhutchie.git-graph
