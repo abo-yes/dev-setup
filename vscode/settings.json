@@ -2,12 +2,9 @@
     // ---------- Look: JetBrains Darcula ----------
     "workbench.colorTheme": "Darcula Theme from IntelliJ",
     "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
-    "editor.fontFamily": "'Fira Code', Consolas, monospace",
-    "editor.fontSize": 13,
+    "editor.fontFamily": "'Fira Code Light', Consolas, monospace",
     "editor.lineHeight": 1.2,
     "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "'Fira Code', Consolas, monospace",
-    "terminal.integrated.fontSize": 13,
     "editor.minimap.enabled": false,
     "editor.rulers": [120],
     "editor.bracketPairColorization.enabled": false,
@@ -53,6 +50,7 @@
     "cSpell.diagnosticLevel": "Hint",
     "git.autofetch": true,
     "remote.SSH.remotePlatform": {
-        "152.70.6.246": "linux"
+        "152.70.6.246": "linux",
+        "vm-5": "linux"
     }
 }
